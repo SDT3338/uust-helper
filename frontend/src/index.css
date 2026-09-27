@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: #1a1a1a;
+  line-height: 1.5;
+  background-color: #FAF7FF;
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(167, 139, 250, 0.10) 0, transparent 8%),
+    radial-gradient(circle at 85% 75%, rgba(139, 92, 246, 0.08) 0, transparent 10%),
+    radial-gradient(circle at 50% 90%, rgba(196, 181, 253, 0.12) 0, transparent 6%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'><g fill='none' stroke='%23C4B5FD' stroke-width='1.2' stroke-opacity='0.35'><circle cx='20' cy='20' r='4'/><circle cx='90' cy='40' r='4'/><circle cx='50' cy='80' r='4'/><circle cx='100' cy='100' r='4'/><circle cx='10' cy='90' r='4'/><path d='M30 30 L45 45'/><path d='M80 50 L70 65'/><path d='M40 85 L60 95'/></g></svg>");
+  background-attachment: fixed, fixed, fixed, fixed;
+  min-height: 100vh;
+}
+
+a {
+  color: #5B21B6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+}
