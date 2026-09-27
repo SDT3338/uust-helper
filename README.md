@@ -57,8 +57,6 @@ npm run dev
 
 ```
 
-```
-
 uust-helper/
 ├── project_it/     # бэкенд (NestJS + MySQL)
 ├── frontend/       # фронтенд (React + Vite)
