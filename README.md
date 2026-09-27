@@ -46,13 +46,12 @@ npm run start:prod
 ```
 
 <h3>Фронтенд</h3>
+
 ```
 cd frontend
 npm i
 npm run dev
 ```
-
-Открой http://localhost:5173
 
 <h2>Структура проекта</h2>
 
